@@ -112,3 +112,18 @@ header{
         width: 0;
     }
 }
+
+.home img {
+    position: flex;
+    width: 400px;
+    height: 350px;
+    border-radius: 100%;
+    display: right;
+    justify-content: right;
+}
+
+.home-img img {
+    width: 100%;
+    border-radius: 100%;
+    border: .2rem solid #ededed;
+}
