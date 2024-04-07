@@ -55,3 +55,60 @@ header{
 .navbar a.active {
     color: #ab1d20; 
 }
+
+.home {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'DM Serif Display';
+    line-height: 1.0;
+}
+
+.home-content p {
+    font-size: 14;
+    max-width: 300px;
+    color: #050834;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80%;
+    background: maroon;
+    border: 1px solid maroon;
+    border-radius: 18px;
+    font-size: 14px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:nth-child() {
+    background: transparent;
+}
+
+.btn-box a:hover{
+    color: black; 
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
