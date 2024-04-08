@@ -324,7 +324,95 @@ span {
 .education-content .content h3 {
     font-size: 17px;
 }
+
 .education-content .content p {
     font-size: 13px;
     padding-top: .5rem;
+}
+
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .input-box {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box .input-field {
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+    margin-top: 2rem;
+}
+
+.contact form .input-box .input-field input {
+    width: 95%;
+    height: 95%;
+    padding: 1rem;
+    font-size: 14px;
+    color: #0b2545;
+    background: transparent;
+    border-radius: .2rem;
+    border: .2rem solid #0b2545;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: #050834;
+}
+.contact form .textarea-field textarea {
+    width: 99%;
+    height: 99%;
+    padding: 1rem;
+    font-size: 16px;
+    color: #050834;
+    background: transparent;
+    border-radius: 2rem;
+    border: .2rem solid #050834;
+    margin-left: 10px;
+}
+
+.contact form .textarea-field {
+    position: center;
+    margin: .8rem 0 2.7rem;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact form .btn-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150%;
+    background: maroon;
+    border: 1px solid maroon;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.contact form .btn-box:hover {
+    color: black;
+}
+
+.contact form .btn-box:nth-child() {
+    background-color: transparent;
 }
