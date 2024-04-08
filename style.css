@@ -66,15 +66,22 @@ header{
 
 .home-content h1 {
     margin-left: 20px;
+    margin-top: 10px;
     font-size: 50px;
     font-weight: 600;
     font-family: 'DM Serif Display';
     line-height: 1.0;
 }
 
+.home-content h3 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.0;
+    margin: 20px 20px 40px;
+}
 .home-content p {
-    font-size: 14;
-    max-width: 300px;
+    font-size: 14px;
+    max-width: 500px;
     color: #323883;
     margin: 20px 20px 40px;
 }
@@ -128,7 +135,7 @@ header{
 .home-img img {
     width: 100%;
     border-radius: 100%;
-    border: .2rem solid #ededed;
+    border: .1rem solid #ededed;
 }
 
 .about {
