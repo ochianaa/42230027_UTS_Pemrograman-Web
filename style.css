@@ -60,10 +60,12 @@ header{
     height: 100vh;
     display:flex;
     align-items: center;
+    align-items: center;
     padding: 0 10%;
 }
 
 .home-content h1 {
+    margin-left: 20px;
     font-size: 50px;
     font-weight: 600;
     font-family: 'DM Serif Display';
@@ -73,14 +75,15 @@ header{
 .home-content p {
     font-size: 14;
     max-width: 300px;
-    color: #050834;
-    margin: 20px 0 40px;
+    color: #323883;
+    margin: 20px 20px 40px;
 }
 
 .home-content .btn-box {
     display: flex;
     width: 345px;
     height: 50px;
+    margin: 20px 20px 40px;
 }
 
 .btn-box a {
