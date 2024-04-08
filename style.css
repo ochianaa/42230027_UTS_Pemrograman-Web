@@ -209,3 +209,28 @@ span {
     font-size: 14px;
     margin: 20px;
 }
+
+.about-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 200%;
+    background: maroon;
+    border: 1px solid maroon;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.about-box a:hover {
+    color: black;
+}
+
+.about-box a:nth-child() {
+    background-color: transparent;
+}
