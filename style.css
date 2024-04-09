@@ -373,7 +373,7 @@ span {
 }
 .contact form .textarea-field textarea {
     width: 99%;
-    height: 99%;
+    height: 40%;
     padding: 1rem;
     font-size: 16px;
     color: #050834;
@@ -398,7 +398,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 150%;
+    height: 10px;
     background: maroon;
     border: 1px solid maroon;
     border-radius: 20px;
@@ -428,7 +428,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  background: linear-gradient(315deg, #ffffff 0%, 74%);
 }
 .wrapper .button{
   display: inline-block;
